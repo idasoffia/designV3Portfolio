@@ -1,0 +1,43 @@
+@import '../../node_modules/normalize.css/normalize';
+@import '../../shared/scss/base';
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Open+Sans+Condensed:wght@300&display=swap');
+@import 'old';
+
+//Variabler
+$lightgrey: #707070;
+$darkgreytransparent: rgba(10, 10, 10, 0.3);
+$headings: 'Open Sans Condensed', sans-serif;
+
+html {
+    background-color: rgb(250, 250, 250);
+}
+
+* {
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: $headings;
+}
+
+.header {
+    background-color: $darkgreytransparent;
+    height: 250px;
+
+}
+
+.idaimg {
+    width: 98px;
+    height: 268px;
+    float: right;
+    margin-top: 65px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
