@@ -7,6 +7,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/regular';
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Open+Sans+Condensed:wght@300&display=swap');
 @import 'old';
+@import 'report';
 
 //Variabler
 $lightgrey: #707070;
@@ -27,11 +28,6 @@ h3 {
     font-family: $headings;
 }
 
-.header {
-    background-color: $darkgreytransparent;
-    height: 250px;
-
-}
 
 .idaimg {
     width: 98px;

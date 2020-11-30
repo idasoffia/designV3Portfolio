@@ -2,6 +2,18 @@
 Title: KMOM01
 ---
 
+<div class="sidebar-kmom">
+<ul>
+<a class="active" href="%base_url%?report/kmom01">KMOM01</a>
+<a href="%base_url%?report/kmom02">KMOM02</a>
+<a href="%base_url%?report/kmom03">KMOM03</a>
+<a href="%base_url%?report/kmom04">KMOM04</a>
+<a href="%base_url%?report/kmom05">KMOM05</a>
+<a href="%base_url%?report/kmom06">KMOM06</a>
+<a href="%base_url%?report/kmom10">KMOM10</a>
+</ul>
+</div>
+
 <h2>KMOM01</h2>
 Jag påbörjade den här kursen under höstterminen 2018 men avbröt studierna i förtid av personliga skäl. När jag nu skulle återuppta studierna var jag först lite besviken över att jag inte kunde återanvända det arbete jag redan gjort, men nu måste jag verkligen medge att den här kursen har fått sig ett rejält lyft. Härligt.
 Den erfarenhet jag har av att bygga webbsidor kommer i första hand från kursen htmlphp. Av att utgå från ett ramverk eller CMS:er har jag ingen erfarenhet alls men rent spontan tycker jag att det låter som ett suveränt sätta att spara tid på. Markdown känns smidigt på det sättet att det blir lättare att skriva text direkt i utvecklingsmiljön.

@@ -6808,7 +6808,7 @@ readers do not read off random characters that represent icons */
 }
 
 .hidden {
-  display: none important;
+  display: none !important;
 }
 
 .sr-only {
@@ -6823,32 +6823,35 @@ readers do not read off random characters that represent icons */
 }
 
 .slide {
-  overflow-y: hidden important;
-  transition: height 0.5s ease-in important;
+  overflow-y: hidden !important;
+  transition: height 0.5s ease-in !important;
 }
 
 /*** BASIC LAYOUT ***/
 html, body {
   height: 100%;
+  z-index: 0;
 }
 
 body {
   display: flex;
   flex-direction: column;
-  background-color: rgba(10, 10, 10, 0.3);
 }
 
 .main {
   flex: 1 0 auto;
+  background-color: rgba(10, 10, 10, 0.3);
+  z-index: 1;
 }
 
 .header, .footer {
   flex: 0 0 auto;
+  z-index: 2;
 }
 
 .main {
   padding: 5em 0 4em;
-  min-height: 650px;
+  min-height: 950px;
 }
 
 .container {
@@ -6911,12 +6914,6 @@ img {
 }
 
 .tagline {
-  position: absolute;
-  left: 50%;
-  right: 50%;
-  top: 30%;
-  bottom: 70%;
-  width: 300px;
   display: none;
 }
 
@@ -6965,7 +6962,8 @@ img {
 }
 
 .flash-img {
-  height: 100%;
+  height: 90px;
+  width: 100%;
 }
 
 /*** BASIC LAYOUT: FOOTER ***/
@@ -7004,8 +7002,8 @@ img {
   }
 
   .logo {
-    height: 400px;
-    width: 150px;
+    height: 30%;
+    width: 60%;
   }
 
   .nav {
@@ -7020,7 +7018,8 @@ img {
   .nav ul li {
     display: block;
     margin-left: 0;
-    text-align: center;
+    margin-right: 2em;
+    text-align: right;
   }
 
   .nav ul li a {
@@ -7035,12 +7034,12 @@ img {
     margin: 0.6667em 0;
     font-size: 1.5rem;
     line-height: 2em;
-    text-align: center;
+    text-align: right;
     cursor: pointer;
   }
 
   .js .nav-toggle > * {
-    vertical-align: middle;
+    vertical-align: right;
   }
 
   .footer p {
@@ -7077,7 +7076,7 @@ p, hr, table, .table-responsive, ol, ul, dl, dd, pre, blockquote, fieldset {
 }
 
 a {
-  color: #2eae9b;
+  color: rgb(27, 163, 168);
   text-decoration: none;
   transition: color 0.2s ease-in;
 }
@@ -7386,6 +7385,7 @@ input::-moz-focus-inner, button::-moz-focus-inner {
 
 html {
   background-color: white;
+  z-index: 0;
 }
 
 * {
@@ -7397,11 +7397,84 @@ h1, h2, h3 {
 }
 
 .header {
-  background-color: rgba(10, 10, 10, 0.3);
+  background: #707070;
   height: 250px;
 }
 
 .idaImg {
+  width: 98px;
+  height: 268px;
+  float: right;
+  margin-top: 65px;
+  padding-left: 15px;
+  padding-bottom: 10px;
+}
+
+.active {
+  text-decoration: underline;
+  color: #0c7177;
+}
+
+.landingpage {
+  display: grid;
+  gap: 2em;
+  padding-left: 16em;
+  padding-right: 16em;
+}
+
+.landingpage h1 {
+  grid-column: span 3;
+  justify-self: center;
+}
+
+.top-kmom-box {
+  grid-column: span 3;
+  justify-content: start;
+  background: #464646;
+  text-indent: 1em;
+}
+
+.kmom-box,
+.kmom10-box {
+  display: grid;
+  grid-column: span 1;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  box-shadow: 3px 3px;
+  background-color: rgba(10, 10, 10, 0.3);
+  align-self: center;
+  text-indent: 1em;
+  min-height: 120px;
+  min-width: 160px;
+}
+
+.kmom10-box {
+  grid-column: span 3;
+}
+
+@media (max-width: 767px) {
+  .landingpage h1,
+.kmom10-box,
+.top-kmom-box {
+    grid-column: span 1;
+    align-self: start;
+  }
+}
+html {
+  background-color: #fafafa;
+}
+
+* {
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+.idaimg {
   width: 98px;
   height: 268px;
   float: right;

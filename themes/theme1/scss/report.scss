@@ -1,0 +1,53 @@
+.active {
+    text-decoration: underline;
+    color: rgb(12, 113, 119);
+}
+
+.landingpage {
+    display: grid;
+    gap: 2em;
+    padding-left: 16em;
+    padding-right: 16em;
+}
+
+.landingpage h1 {
+    grid-column: span 3;
+    justify-self: center;
+}
+
+.top-kmom-box {
+    grid-column: span 3;
+    justify-content: start;
+    background: rgb(70, 70, 70);
+    text-indent: 1em;
+
+}
+
+.kmom-box,
+.kmom10-box {
+    display: grid;
+    grid-column: span 1;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    box-shadow: 3px 3px;
+    background-color: rgba(10, 10, 10, 0.3);
+    align-self: center;
+    text-indent: 1em;
+    min-height: 120px;
+    min-width: 160px;
+}
+
+.kmom10-box {
+    grid-column: span 3;
+}
+
+
+
+@media (max-width: 767px) {
+    .landingpage h1,
+    .kmom10-box,
+    .top-kmom-box {
+        grid-column: span 1;
+        align-self: start;
+    }
+}
