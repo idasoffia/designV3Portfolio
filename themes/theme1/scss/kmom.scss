@@ -1,0 +1,43 @@
+.active {
+    text-decoration: underline;
+    color: rgb(12, 113, 119);
+}
+
+.kmomPage {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 16em;
+    padding-right: 16em;
+}
+
+.kmomPage h2 {
+    grid-column: span 4;
+    justify-self: center;
+}
+
+
+
+.leftMenue {
+    background-color: rgba(10, 10, 10, 0.3);
+    margin: 1em;
+    min-width: 75px;
+
+}
+
+.rightText {
+    margin: 1em;
+}
+
+
+
+@media (max-width: 767px) {
+    .leftMenue {
+        display: none;
+        min-width: 0;
+    }
+
+    .rightText {
+        min-width: 300px;
+    }
+}

@@ -8,33 +8,11 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Open+Sans+Condensed:wght@300&display=swap');
 @import 'old';
 @import 'report';
-@import 'kmom';
 
-//Variabler
-$lightgrey: #707070;
-$darkgreytransparent: rgba(10, 10, 10, 0.3);
-$headings: 'Open Sans Condensed', sans-serif;
-
-html {
-    background-color: rgb(250, 250, 250);
+.main {
+    background-color: black;
 }
 
-* {
-    font-family: 'Barlow Condensed', sans-serif;
-}
-
-h1,
-h2,
-h3 {
-    font-family: $headings;
-}
-
-
-.idaimg {
-    width: 98px;
-    height: 268px;
-    float: right;
-    margin-top: 65px;
-    padding-left: 15px;
-    padding-bottom: 10px;
+.header {
+    background-color: black;
 }

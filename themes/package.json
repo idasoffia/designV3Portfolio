@@ -6,8 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint \"**/*.scss\"",
-    "style": "sass theme1/scss/style.scss theme1/css/style.css --no-source-map",
-    "style-min": "sass theme1/scss/style.scss theme1/css/style.min.css --no-source-map --style compressed"
+    "style": "npm run style-dark && npm run style-light", 
+    "style-dark": "sass theme1/scss/style-dark.scss theme1/css/style-dark.css --no-source-map",
+    "style-dark-min": "sass theme1/scss/style-dark.scss theme1/css/style-dark.min.css --no-source-map --style compressed",
+    "style-light": "sass theme1/scss/style.scss theme1/css/style.css --no-source-map",
+    "style-light-min": "sass theme1/scss/style.scss theme1 /css/style.min.css --no-source-map --style compressed"
   },
   "keywords": [],
   "author": "",
