@@ -7440,7 +7440,7 @@ h1, h2, h3 {
   grid-column: span 1;
   border: 1px solid rgba(0, 0, 0, 0.3);
   border-radius: 5px;
-  box-shadow: 3px 3px;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.7);
   background-color: rgba(10, 10, 10, 0.3);
   align-self: center;
   text-indent: 1em;
@@ -7467,8 +7467,10 @@ h1, h2, h3 {
 }
 .main {
   background-color: black;
+  color: #707070;
 }
 
 .header {
   background-color: black;
+  color: #707070;
 }
