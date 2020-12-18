@@ -4,7 +4,7 @@ Description: This is our index page.
 Template: kmom
 ---
 
-<div class="leftMenue">
+<div class="leftmenue">
 <ul>
 <a href="%base_url%?report/kmom01">KMOM01</a>
 <a href="%base_url%?report/kmom02">KMOM02</a>
@@ -16,7 +16,7 @@ Template: kmom
 </ul>
 </div>
 
-<div class="rightText">
+<div class="righttext">
 <h2>KMOM04</h2>
 Skrivuppgiften gick bra, jag har ju en examen i maskinteknik sedan tidigare och vet att man i yrkeslivet både läser och skriver en hel del olika texter, så det känns som en fördel att skriva olika texter under utbildningen. Kanske att man skulle öva ännu mer på dokumentation, då det ofta är något som är bristfälligt på många arbetsplatser, speciellt när det gäller IT. Det är väldigt jobbigt att förstå eller sätta sig in någon annans arbete som inte är väldokumenterat och är något som kostar många företag en hel del pengar.
 

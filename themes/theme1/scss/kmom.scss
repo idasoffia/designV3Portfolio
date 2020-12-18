@@ -3,7 +3,7 @@
     color: rgb(12, 113, 119);
 }
 
-.kmomPage {
+.kmompage {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -11,33 +11,37 @@
     padding-right: 16em;
 }
 
-.kmomPage h2 {
+.kmompage h2 {
     grid-column: span 4;
     justify-self: center;
 }
 
 
 
-.leftMenue {
+.leftmenue {
     background-color: rgba(10, 10, 10, 0.3);
     margin: 1em;
     min-width: 75px;
 
 }
 
-.rightText {
+.righttext {
     margin: 1em;
 }
 
 
 
 @media (max-width: 767px) {
-    .leftMenue {
+    .leftmenue {
         display: none;
         min-width: 0;
     }
 
-    .rightText {
+    .righttext {
         min-width: 300px;
     }
+}
+
+pre {
+    background-color: rgba(10, 10, 10, 0.3);
 }

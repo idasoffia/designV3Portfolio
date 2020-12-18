@@ -7301,7 +7301,6 @@ pre {
   padding: 0 1em;
   border: 1px solid #ccc;
   border-radius: 0.3em;
-  background: #f5f5f5;
 }
 
 pre code {
@@ -7427,6 +7426,17 @@ h1, h2, h3 {
   justify-self: center;
 }
 
+.gallery {
+  display: grid;
+  gap: 2em;
+}
+
+.gallery h1 {
+  width: 100%;
+  grid-column: span 3;
+  justify-self: center;
+}
+
 .top-kmom-box {
   grid-column: span 3;
   justify-content: start;
@@ -7435,7 +7445,8 @@ h1, h2, h3 {
 }
 
 .kmom-box,
-.kmom10-box {
+.kmom10-box,
+.imageGallery {
   display: grid;
   grid-column: span 1;
   border: 1px solid rgba(0, 0, 0, 0.3);
@@ -7455,12 +7466,14 @@ h1, h2, h3 {
 @media (max-width: 767px) {
   .landingpage h1,
 .kmom10-box,
-.top-kmom-box {
+.top-kmom-box,
+.imageGallery {
     grid-column: span 1;
     align-self: start;
   }
 
-  .landingpage {
+  .landingpage,
+.gallery {
     padding: 1em;
     margin: 1em;
   }
@@ -7503,6 +7516,10 @@ h1, h2, h3 {
     min-width: 300px;
   }
 }
+pre {
+  background-color: rgba(10, 10, 10, 0.3);
+}
+
 html {
   background-color: #fafafa;
 }
@@ -7527,6 +7544,6 @@ h3 {
 }
 
 .analysisImg {
-  width: 380px;
-  height: 300px;
+  width: 220px;
+  height: 150px;
 }

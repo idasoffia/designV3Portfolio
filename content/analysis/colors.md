@@ -38,7 +38,7 @@ När man går vidare och tittar på typografin möts vi av en klassisk rubrik me
 <td style="height: 50px; width: 50px; background-color: #41561f">
 </tr>
 </table>
-![image text](../image/db.png) {.analysisImg}
+![image text](../image/db.png) {.analysisimg}
 
 <h4>Elements of AI</h4>
 Även på startsidan för kursen <a href="https://elementsofai.com/">Elements Of AI</a> möts man av en vit bakgrund. Sidan är sedan sparsamt besmyckad med geometriska former och med färg i ett näst intill monokromatiskt färgschema, med ett fåtal undantag. På startsidan möts man av en stor centrerad rubrik i walsheim-bold. brödtexten är definierad som walsheim-regular.
@@ -54,7 +54,7 @@ När man går vidare och tittar på typografin möts vi av en klassisk rubrik me
 <td style="height: 50px; width: 50px; background-color: #29264c">
 </tr>
 </table>
-![image text](../image/ai.png) {.analysisImg}
+![image text](../image/ai.png) {.analysisimg}
 
 <h4>SommarMatte.se</h4>
 På <a href="https://sommarmatte.se">SommarMatte</a> möts man av en stor bild och massa nyanser av blått. Skrollar man ner på sidan övergår bilden, även på denna sida till en bakgrund i vitt. På den här sidan är intrycket livligt, men samtidigt strukturerat och tydligt med ett klart monokromatiskt färgschema. Här har man valt en rubrik i open sans och brödtext i 'open sans', arial, helvetica, sans-serif. på startsidan har man även en textlogga med oidentifierat typsnitt och
@@ -70,7 +70,7 @@ På <a href="https://sommarmatte.se">SommarMatte</a> möts man av en stor bild o
 <td style="height: 50px; width: 50px; background-color: #201525">
 </tr>
 </table>
-![image text](../image/sommarmatte.png) {.analysisImg}
+![image text](../image/sommarmatte.png) {.analysisimg}
 
 
 Analys

@@ -3,7 +3,7 @@ Title: KMOM10
 Description: This is our index page.
 Template: kmom
 ---
-<div class="leftMenue">
+<div class="leftmenue">
 <ul>
 <a href="%base_url%?report/kmom01">KMOM01</a>
 <a href="%base_url%?report/kmom02">KMOM02</a>
@@ -15,7 +15,7 @@ Template: kmom
 </ul>
 </div>
 
-<div class="rightText">
+<div class="righttext">
 
 <h2>KMOM10</h2>
 

@@ -15,6 +15,18 @@
     justify-self: center;
 }
 
+.gallery {
+    display: grid;
+    gap: 2em;
+
+}
+
+.gallery h1 {
+    width: 100%;
+    grid-column: span 3;
+    justify-self: center;
+}
+
 .top-kmom-box {
     grid-column: span 3;
     justify-content: start;
@@ -24,7 +36,8 @@
 }
 
 .kmom-box,
-.kmom10-box {
+.kmom10-box,
+.imagegallery {
     display: grid;
     grid-column: span 1;
     border: 1px solid rgba(0, 0, 0, 0.3);
@@ -46,11 +59,14 @@
 @media (max-width: 767px) {
     .landingpage h1,
     .kmom10-box,
-    .top-kmom-box {
+    .top-kmom-box,
+    .imagegallery {
         grid-column: span 1;
         align-self: start;
     }
-    .landingpage {
+    
+    .landingpage,
+    .gallery {
         padding: 1em;
         margin: 1em;
     }

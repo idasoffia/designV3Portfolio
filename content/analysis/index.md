@@ -13,7 +13,7 @@ Analysis
 </div>
 
 <div class="kmom-box">
-    <div class="top-kmom-box"><a href="%base_url%?analysis/images"<h2>Images</h2></a></div>
+    <div class="top-kmom-box"><a href="%base_url%?analysis/02_load"<h2>02_load</h2></a></div>
     <p>Utvärdering av sidors bilder</p>
 </div>
 
