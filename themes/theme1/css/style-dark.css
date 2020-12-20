@@ -7446,7 +7446,7 @@ h1, h2, h3 {
 
 .kmom-box,
 .kmom10-box,
-.imageGallery {
+.imagegallery {
   display: grid;
   grid-column: span 1;
   border: 1px solid rgba(0, 0, 0, 0.3);
@@ -7467,7 +7467,7 @@ h1, h2, h3 {
   .landingpage h1,
 .kmom10-box,
 .top-kmom-box,
-.imageGallery {
+.imagegallery {
     grid-column: span 1;
     align-self: start;
   }
@@ -7479,11 +7479,11 @@ h1, h2, h3 {
   }
 }
 .main {
-  background-color: black;
+  background-color: #010101;
   color: #707070;
 }
 
 .header {
-  background-color: black;
+  background-color: #010101;
   color: #707070;
 }

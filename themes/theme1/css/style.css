@@ -7446,7 +7446,7 @@ h1, h2, h3 {
 
 .kmom-box,
 .kmom10-box,
-.imageGallery {
+.imagegallery {
   display: grid;
   grid-column: span 1;
   border: 1px solid rgba(0, 0, 0, 0.3);
@@ -7467,7 +7467,7 @@ h1, h2, h3 {
   .landingpage h1,
 .kmom10-box,
 .top-kmom-box,
-.imageGallery {
+.imagegallery {
     grid-column: span 1;
     align-self: start;
   }
@@ -7483,7 +7483,7 @@ h1, h2, h3 {
   color: #0c7177;
 }
 
-.kmomPage {
+.kmompage {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -7491,28 +7491,28 @@ h1, h2, h3 {
   padding-right: 16em;
 }
 
-.kmomPage h2 {
+.kmompage h2 {
   grid-column: span 4;
   justify-self: center;
 }
 
-.leftMenue {
+.leftmenue {
   background-color: rgba(10, 10, 10, 0.3);
   margin: 1em;
   min-width: 75px;
 }
 
-.rightText {
+.righttext {
   margin: 1em;
 }
 
 @media (max-width: 767px) {
-  .leftMenue {
+  .leftmenue {
     display: none;
     min-width: 0;
   }
 
-  .rightText {
+  .righttext {
     min-width: 300px;
   }
 }
@@ -7543,7 +7543,25 @@ h3 {
   padding-bottom: 10px;
 }
 
-.analysisImg {
+.analysisimg {
   width: 220px;
   height: 150px;
+}
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }

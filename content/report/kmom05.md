@@ -22,6 +22,11 @@ Jag är väldigt förtjust i photoshop och använder det väldigt mycket när ja
 De sidor jag tittade på hade stor skillnad i laddningstid, men de riktar sig också till väldigt olika målgrupper. Toleransen för att vänta på att en sida ska ladda är nog generellt sett ganska låg idag men det kan nog skilja sig ganska kraftigt åt mellan olika segment
 Unsplash var väldigt bra! Jag brukar alltid känna mig lite osäker när jag plockar bilder från internet men på unsplash fanns det hur mycket högupplösta bilder som helst. Gött!
 Veckans TIL får nog bli att man kan redigera bilder i webbläsaren, vilket borde spara både tid vid underhåll av en sida och också minska laddningstiden och de lagringsutrymme som krävs. Jag skulle dock gärna testa något annat program än just Cimage, eller åtminstone lära mig vilka program som är mest använda. En annan rolig grej som jag lade märke till den här veckan är att man kan skriva markdown- kod inne i en div med hjälp av koden "div class="XXX" markdown="1"", hur smidigt är inte det? Bra vecka.
+Nedan är en rolig video på djur.
+
+<div class="embed-container">
+    <iframe src="https://www.youtube.com/embed/Tb4B0Fc8V_A" frameborder="0" allowfullscreen></iframe>
+</div>
 
 
 </div>

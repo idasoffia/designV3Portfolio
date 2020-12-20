@@ -2,7 +2,6 @@ Mätning av sidors laddningstid
 =======================
 
 
-
 Urval
 -----------------------
 
