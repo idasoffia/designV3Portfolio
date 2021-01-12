@@ -144,12 +144,13 @@ img {
 
 .nav a, .nav-toggle {
     color: rgb(236, 155, 23);
-    text-shadow: 0.5px  0.5px black;
+    text-shadow: 0.9px  0.9px black;
+    font-size: 110%;
 }
 
 .nav .active a, .nav a:hover, .nav-toggle:hover {
-    color: rgb(244, 81, 24);
-    text-shadow: 0.8px  0.8px black;
+    color: rgb(236, 155, 23);
+    text-shadow: 1px  1px black;
 }
 
 .nav a:hover, .nav-toggle:hover {
@@ -178,7 +179,7 @@ img {
 /*** BASIC LAYOUT: FOOTER ***/
 
 .footer {
-    background: #707070;
+    background: rgb(65, 65, 65);
     color: #c0c0c0;
 }
 
@@ -279,16 +280,17 @@ p, hr, table, .table-responsive, ol, ul, dl, dd, pre, blockquote, fieldset {
 }
 
 a {
-    color: rgb(27, 163, 168);
+    color: rgb(236, 175, 43);
     text-decoration: none;
+    text-shadow: 0.5px;
     transition: color 0.2s ease-in;
 }
 
 a:hover {
-    color: #444;
+    color: rgb(236, 155, 23);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h3, h4, h5, h6 {
     margin-bottom: 0.6em;
     font-weight: bold;
     color: #333;
@@ -604,7 +606,7 @@ h1, h2, h3 {
 }
 
 .header {
-  background: #707070;
+  background: rgb(65, 65, 65);
   height: 250px;
 }
 

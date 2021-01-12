@@ -1,6 +1,11 @@
 .active {
     text-decoration: underline;
-    color: rgb(12, 113, 119);
+    color: rgb(236, 155, 23);
+    text-shadow: 1px;
+}
+
+.a {
+    color: rgb(236, 175, 43);
 }
 
 .landingpage {
@@ -30,7 +35,7 @@
 .top-kmom-box {
     grid-column: span 3;
     justify-content: start;
-    background: rgb(70, 70, 70);
+    background: rgb(65, 65, 65);
     text-indent: 1em;
 
 }
@@ -43,7 +48,7 @@
     border: 1px solid rgba(0, 0, 0, 0.3);
     border-radius: 5px;
     box-shadow: 3px 3px rgba(0, 0, 0, 0.7);
-    background-color: rgba(10, 10, 10, 0.3);
+    background-color: rgb(180, 180, 180);
     align-self: center;
     text-indent: 1em;
     min-height: 120px;
@@ -64,7 +69,7 @@
         grid-column: span 1;
         align-self: start;
     }
-    
+
     .landingpage,
     .gallery {
         padding: 1em;

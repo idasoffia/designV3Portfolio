@@ -1,6 +1,11 @@
 .active {
     text-decoration: underline;
-    color: rgb(12, 113, 119);
+    color: rgb(236, 155, 23);
+    text-shadow: 1px;
+}
+
+.a {
+    color: rgb(236, 175, 43);
 }
 
 .kmompage {
@@ -19,10 +24,9 @@
 
 
 .leftmenue {
-    background-color: rgba(10, 10, 10, 0.3);
+    background-color: rgb(65, 65, 65);
     margin: 1em;
-    min-width: 75px;
-
+    min-width: 85px;
 }
 
 .righttext {

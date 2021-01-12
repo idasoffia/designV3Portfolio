@@ -6,13 +6,13 @@ Template: kmom
 
 <div class="leftmenue">
 <ul>
-<a class="active" href="%base_url%?report/kmom01">KMOM01</a>
-<a href="%base_url%?report/kmom02">KMOM02</a>
-<a href="%base_url%?report/kmom03">KMOM03</a>
-<a href="%base_url%?report/kmom04">KMOM04</a>
-<a href="%base_url%?report/kmom05">KMOM05</a>
-<a href="%base_url%?report/kmom06">KMOM06</a>
-<a href="%base_url%?report/kmom10">KMOM10</a>
+<li><a class="active" href="%base_url%?report/kmom01">KMOM01</a></li>
+<li><a href="%base_url%?report/kmom02">KMOM02</a></li>
+<li><a href="%base_url%?report/kmom03">KMOM03</a></li>
+<li><a href="%base_url%?report/kmom04">KMOM04</a></li>
+<li><a href="%base_url%?report/kmom05">KMOM05</a></li>
+<li><a href="%base_url%?report/kmom06">KMOM06</a></li>
+<li><a href="%base_url%?report/kmom10">KMOM10</a></li>
 </ul>
 </div>
 

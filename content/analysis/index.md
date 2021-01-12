@@ -18,6 +18,6 @@ Analysis
 </div>
 
 <div class="kmom-box">
-    <div class="top-kmom-box"><a href="%base_url%?analysis/prestanda"<h2>Prestanda</h2></a></div>
+    <div class="top-kmom-box"><a href="%base_url%?analysis/03_designprincip"<h2>03_Design</h2></a></div>
     <p>Utvärdering av sidors prestanda</p>
 </div>
